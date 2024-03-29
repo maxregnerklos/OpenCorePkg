@@ -675,6 +675,7 @@ boot_error_str  db  'error', 0
 ; If the booter code becomes too large, then nasm will complain
 ; that the 'times' argument is negative.
 
+
 ;
 ; According to EFI specification, maximum boot code size is 440 bytes
 ;
